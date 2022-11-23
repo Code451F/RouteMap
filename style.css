@@ -364,14 +364,14 @@ button:hover{
 }
 
 .services{
-  background: #af1e4f;
+  background: black;
   width: 100%;
   padding: 100px 0px;
   opacity: 0.95;
 }
 
 .title h2{
-  color: #0f0f21;
+  color: white;
   font-size: 75px;
   width: 1130px;
   margin: 30px auto;
@@ -394,10 +394,10 @@ button:hover{
   height: 365px;
   width: 335px;
   padding: 20px 35px;
-  background: #0f0f21;
+  background: white;
   border-radius: 20px;
   margin: 15px;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.495);
+  box-shadow: 5px 5px 20px rgba(74, 74, 74, 0.495);
   position: relative;
   overflow: hidden;
   text-align: center;
@@ -408,25 +408,25 @@ button:hover{
   display: block;
   text-align: center;
   margin: 25px 0px;
-  color: aliceblue;
+  color: black;
 }
 
 h5{
-  color: #af1e4f;
+  color: black;
   font-size: 26px;
   margin-bottom: 15px;
 }
 
 .dev p{
-  color: aliceblue;
+  color: black;
   font-size: 16px;
   line-height: 27px;
   margin-bottom: 25px;
 }
 
 .cards .button{
-  background-color: #af1e4f;
-  color: aliceblue;
+  background-color: black;
+  color: white;
   text-decoration: none;
   border: 2px solid transparent;
   font-weight: bold;
@@ -437,263 +437,8 @@ h5{
 
 .cards .button:hover{
   background-color: transparent;
+  color: black;
   border: 2px solid;
   cursor: pointer;
 }
 
-.contact{
-  width: 100%;
-  height: 290px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contact p{
-  color:#0f0f21;
-  font-size: 24px;
-  font-weight: bold;
-  margin-bottom: 25px;
-}
-
-.contact p span{
-  color: #af1e4f;
-}
-
-.hire{
-  color: #0f0f21;
-}
-
-.title .hire span{
-  color: #af1e4f;
-}
-
-.contact .buttonhire{
-  background-color:#af1e4f;
-  border-color: #af1e4f;
-  color: aliceblue;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  transition: .3s;
-}
-
-.contact .buttonhire:hover{
-  background-color: transparent;
-  color: #af1e4f;
-  border: 2px solid;
-  cursor: pointer;
-}
-
-footer{
-  position: relative;
-  width: 100%;
-  height: 470px;
-  background: #0f0f21;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-footer img:nth-child(1){
-  width: 200px;
-  height: auto;
-  text-align:center;
-  display:inline-block;
-  margin-top: -140px;
-  margin-bottom: 30px;
-}
-
-footer p:nth-child(2){
-  font-size: 40px;
-  color:#af1e4f;
-  margin-top: -50px;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
-footer p:nth-child(3){
-  color: aliceblue;
-  font-size: 17px;
-  width: 500px;
-  text-align: center;
-  line-height: 26px;
-}
-
-.social{
-  display: flex;
-}
-
-.social a{
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #af1e4f;
-  border-radius: 50%;
-  margin: 20px 10px;
-  margin-bottom: -300px;
-  color: aliceblue;
-  text-decoration: none;
-  font-size: 24px;
-  transition: .3s;
-}
-
-.social a:hover{
-  background-color: transparent;
-  color: #af1e4f;
-  border: 2px solid;
-  cursor: pointer;
-}
-
-.end{
-  position: absolute;
-  color: aliceblue;
-  bottom: 20px;
-  letter-spacing: 4px;
-  font-size: 14px;
-}
-
-
-
-/* 
-.socials img{
- width: 20px;
- margin: 30px 5px;
- cursor: pointer; 
-}
-.menu-icon{
-  width: 25px;
-  position: absolute;
-  left: 40px;
-  top: 40px;
-}
-.setting-icon{
-  width: 25px;
-  position: absolute;
-  right: 40px;
-  top: 40px;
-}
-.profilebottom img{
-  width: 15px;
-  margin-top: 15px;
-  cursor: pointer;
-}
-.profilebottombutton{
-  background: #ffff;
-  color: #FF574A;
-  border: none;
-  outline: none;
-  box-shadow: 0px 5px 10px rgba(175,30,79,255);
-  padding: 15px 60px;
-  cursor: pointer;
-  border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: -40px;
-  font-weight: 600;
-  font-size: 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-
-/* padding: 10px 25px; */
-
-/* margin-top: 10px; */
-
-/* background-image: url(../imgs/webbackground.png); */
-
-/* .main{
-  height: 100vh;
-  width: 100%;
-  background-color: #0f0f21;
-  background-size: cover;
-  background-position: center; 
-} */
-
-/* .profilebox button{
-  background-color: #af1e4f;
-  color: aliceblue;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 10px 25px;
-  border-radius: 30px;
-  transition: transform .3s;
-  margin-top: 30px;
-} */
-
-  /* margin-top: 30px; */
-
-  /* margin-top: 100px; */
-
-  /* .abg{
-  display: flex;
-  width: 50px;
-  height: 50px;
-  margin-bottom: 30px;
-} */
-
-/* .profilebottom2b{
-  background: aliceblue;
-  color: #0f0f21;
-  padding: 30px 0;
-  margin-right: -70px;
-  margin-left: -70px;
-  margin-bottom: -10px;
-  border-radius: 20px;
-}
-
-.profilebottom2b{
-  background: aliceblue;
-  color: #0f0f21;
-  padding: 30px 0;
-  margin-right: -70px;
-  margin-left: -70px;
-  margin-bottom: -10px;
-  border-radius: 20px;
-} */
-
-/* .lmg{
-  width: 20%;
-  height: 20%;
-  text-align:center;
-}
-
-.lmg img{
-
-} */
-
-/* .pp1{
-  margin-top: 12px;
-  margin-bottom: 16px;
-  font-size: 18px;
-} */
-
-
-/* .profilebottombutton{
-  background-color:#af1e4f;
-  border-color: #af1e4f;
-  color: aliceblue;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 13px 30px;
-  border-radius: 30px;
-  margin-top: 30px;
-  transition: .3s;
-}
-
-.profilebottombutton:hover{
-  background-color: transparent;
-  color: #af1e4f;
-  border: 2px solid;
-  cursor: pointer;
-} */
-
-/* width: 250px; */
