@@ -89,7 +89,7 @@ nav h2 {
 }
 
 .abouttext {
-  width: 550px;
+  width: 580px;
 }
 
 .main {
@@ -124,6 +124,7 @@ nav h2 {
   line-height: 28px;
   font-size: 22px;
   margin-bottom: 45px;
+  text-align: justify;
 }
 
 .services {
