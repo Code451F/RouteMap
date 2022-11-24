@@ -115,7 +115,7 @@ html{
   height: 106vh;
   width: 100%;
   background-color: white;
-  background-image: url(Images/DIVB2.jpg);
+  background-image: url(https://i.ibb.co/dfYkx89/DIVB2.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -124,16 +124,36 @@ nav{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 10px;
+  padding-top: 20px;
   padding-left: 5%;
   padding-right: 5%;
   margin-top: -40px;
+ 
 }
+
+/* navbar container for the redirected page */
+/* nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: -40px;
+  background-color: black;
+} */
 
 .logo{
   color:  #ffffff;
   margin-left: -40px;
   cursor: pointer;
+}
+nav i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: white;
 }
 
 span{
@@ -149,7 +169,7 @@ nav img{
 
 nav h2{
   text-align: right;
-  color: black;
+  color: white;
   margin-left: 60px;
   cursor: pointer;
   font-size: 38px;
@@ -388,6 +408,7 @@ button:hover{
   justify-content: center;
   align-items: center;
   min-height: 400px;
+  
 }
 
 .cards{
@@ -440,5 +461,11 @@ h5{
   color: black;
   border: 2px solid;
   cursor: pointer;
+}
+
+.downbutton{
+ margin-left: 880px;
+ margin-top: 40px;
+
 }
 
